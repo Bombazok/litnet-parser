@@ -13,8 +13,10 @@ title = ""
 # if it's not presented - use the next comment method to find it, but check the 'Payload' instead of 'Headers'
 chapterID = ""
 
-# check 'DevTools Network tab -> get-page request -> Headers -> Request Headers' to put your data here
-# do not forget to log in. It won't work if you won't fill this data
+# open any page of the book and then open DevTools (press F12 if you use Chrome), then
+# check the 'Network tab -> get-page request -> Headers -> Request Headers' to put your data here
+# 'x-csrf-token' and 'cookie' are the headers you should search for
+# do not forget to log in. It won't work if you won't fill this data or if you won't be logged in
 csrf = ""
 cookie = ""
 
