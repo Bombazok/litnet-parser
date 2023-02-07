@@ -20,6 +20,8 @@ chapterID = ""
 csrf = ""
 cookie = ""
 
+# before using do not forget either to create the 'books' folder at the script folder
+# or update the next line according to your needs
 file = open("books/%s.html" % title, "a")
 file.write(
     "<!DOCTYPE html><html><head><meta charset='UTF-8'/><title>%s</title></head><body>" % title)
